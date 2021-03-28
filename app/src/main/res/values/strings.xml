@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bienvenido</string>
+    <string name="lbl_bienvenido">Bienvenido a mi primera aplicación android</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="lbl_primervalor">Introduzca el primer valor</string>
+    <string name="ValorInicial">0</string>
+    <string name="lbl_segundovalor">Introduzca el segundo valor</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="btn_volver">Volver</string>
+    <string name="lblIm_logo">logoApp</string>
+</resources>

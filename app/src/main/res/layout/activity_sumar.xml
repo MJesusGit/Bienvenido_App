@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SumarActivity">
+
+    <TextView
+        android:id="@+id/lbl_primervalor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_primervalor" />
+
+    <EditText
+        android:id="@+id/txt_primervalor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="@string/ValorInicial" />
+
+    <TextView
+        android:id="@+id/lbl_segundovalor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_segundovalor" />
+
+    <EditText
+        android:id="@+id/txt_segundovalor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="@string/ValorInicial" />
+
+    <Button
+        android:id="@+id/btn_sumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="oyente_btnSumar"
+        android:text="@string/btn_sumar" />
+
+    <TextView
+        android:id="@+id/lbl_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ValorInicial"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oyente_btnVolver"
+        android:text="@string/btn_volver" />
+</LinearLayout>
